@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+vendor/
+
+# WordPress specific
+*.log
+.htaccess
+
+# OS specific
+.DS_Store
+Thumbs.db
