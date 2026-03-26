@@ -1,0 +1,90 @@
+/* Coachproai Worksheet Generator - Frontend Styles */
+.cpwg-frontend-wrap {
+	max-width: 800px;
+	margin: 20px auto;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.cpwg-frontend-header h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.cpwg-frontend-form {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.cpwg-form-row {
+	margin-bottom: 15px;
+}
+.cpwg-form-row label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.cpwg-form-row select {
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.cpwg-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+.cpwg-btn-primary {
+	background: #2271b1;
+	color: #fff;
+}
+.cpwg-btn-primary:hover {
+	background: #135e96;
+}
+.cpwg-btn-secondary {
+	background: #f0f0f1;
+	color: #1d2327;
+	border: 1px solid #c3c4c7;
+}
+.cpwg-btn-secondary:hover {
+	background: #dcdcde;
+}
+.cpwg-frontend-loading {
+	text-align: center;
+	padding: 20px;
+	color: #50575e;
+}
+.cpwg-frontend-preview {
+	margin-top: 20px;
+}
+.cpwg-frontend-actions {
+	margin-bottom: 15px;
+	text-align: right;
+}
+.cpwg-frontend-content {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 20px;
+}
+@media print {
+	.cpwg-frontend-form,
+	.cpwg-frontend-header,
+	.cpwg-frontend-actions,
+	.cpwg-frontend-loading {
+		display: none !important;
+	}
+	.cpwg-frontend-wrap {
+		max-width: 100%;
+		margin: 0;
+	}
+	.cpwg-frontend-content {
+		border: none !important;
+	}
+}
